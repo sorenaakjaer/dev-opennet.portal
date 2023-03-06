@@ -1809,7 +1809,7 @@ $(document).one("trigger::vue_loaded", function () {
 					return { id: item.id, value: item.value };
 				});
 
-				console.log(formValue)
+				console.log(formValue);
 				$('.INPUT_ONP_EndCustomerEmailConfigFORM > input').val(JSON.stringify(formValue))
 				console.log(JSON.stringify(formValue))
 				$('.BUTTON_ONP_EndCustomerEmailConfigFORM > a').click()
